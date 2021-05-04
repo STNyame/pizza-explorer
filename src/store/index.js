@@ -1,3 +1,4 @@
+// src/store/index.js
 import { combineReducers, createStore } from "redux";
 import userReducer from "./user/reducer";
 import pizzasReducer from "./pizzas/reducer";
