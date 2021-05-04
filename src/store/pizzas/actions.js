@@ -1,5 +1,5 @@
 // src/store/something/actions.js
-export const someAction = (somePayload) => ({
-  type: "pizzas/someAction",
-  payload: somePayload,
+export const addPizza = (newPizza) => ({
+  type: "pizzas/add",
+  payload: newPizza,
 });

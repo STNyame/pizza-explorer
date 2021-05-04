@@ -33,6 +33,8 @@ const initialState = {
 
 export default function reducer(state = initialState, action) {
   switch (action.type) {
+    case "pizzas/add":
+      return { ...state, allPizzas: [...state.allPizzas, action.payload] };
     default: {
       return state;
     }
