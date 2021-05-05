@@ -1,4 +1,5 @@
 import PizzaList from "./components/PizzaList";
+import "./App.css";
 import AddPizzaForm from "./components/AddPizzaForm";
 function App() {
   return (
