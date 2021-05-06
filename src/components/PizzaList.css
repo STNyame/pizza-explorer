@@ -16,6 +16,7 @@
   padding: 10px;
   height: inherit;
   overflow: auto;
+  height: 100%;
 }
 
 .item {

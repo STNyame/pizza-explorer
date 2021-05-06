@@ -43,7 +43,11 @@ export default function PizzaList() {
             return (
               <div
                 className="item"
-                style={{ backgroundImage: `url(${pizza.image})` }}
+                style={{
+                  backgroundImage: `url(${pizza.image})`,
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                }}
                 key={pizza.id}
               >
                 <div className="pizza-info">
